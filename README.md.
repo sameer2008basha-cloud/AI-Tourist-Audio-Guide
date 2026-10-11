@@ -1,0 +1,42 @@
+# AI Tourist Audio Guide
+
+## About the Project
+AI Tourist Audio Guide is a Python-based application that generates informative descriptions of tourist destinations and converts them into speech.
+
+## Features
+- Tourist place summaries
+- Detailed historical and cultural descriptions
+- Multiple language support
+- AI-generated text using Google Gemini
+- Text-to-speech using Murf AI
+
+## Technologies Used
+- Python
+- Flask
+- Flask-CORS
+- Google Gemini API
+- Murf AI API
+
+## Installation
+1. Install Python.
+2. Install the required dependencies:
+
+   pip install -r requirements.txt
+
+3. Create a `.env` file with your API keys:
+
+   API_GEMINI=your_gemini_api_key
+   API_MURFAI=your_murf_api_key
+
+4. Run the application:
+
+   python app.py
+
+## API Endpoint
+POST /generate-audio-guide
+
+## Developer
+Sameer Basha
+
+## Note
+API keys must be kept private and must never be uploaded to GitHub.
